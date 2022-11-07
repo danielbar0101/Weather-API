@@ -3,7 +3,7 @@ import requests
 
 # defining the Base URL, API, and destination city
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather?'
-API_KEY = open('API_KEY', 'r').read()
+API_KEY = open('Weather-API/API_KEY', 'r').read()
 CITY = 'Meitar'
 
 # defining the search URL structure
